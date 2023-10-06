@@ -1,0 +1,18 @@
+.pepTalkStyle {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    border: 2px dashed #DAA520;
+    padding: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+    color: #8B4513;
+    background-color: #FFF8DC;
+}
+
+@media (prefers-color-scheme: dark) {
+    .pepTalkStyle {
+        color: #FFDAB9;           /* A lighter color for dark mode */
+        background-color: #333;   /* A dark background for dark mode */
+    }
+}
