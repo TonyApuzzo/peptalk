@@ -1,3 +1,7 @@
+body {
+    background-color: white;  /* Default body background for light mode */
+}
+
 .pepTalkStyle {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     font-size: 18px;
@@ -11,8 +15,12 @@
 }
 
 @media (prefers-color-scheme: dark) {
+    body {
+        background-color: #222; /* Dark background for the entire page */
+    }
+
     .pepTalkStyle {
-        color: #FFDAB9;           /* A lighter color for dark mode */
-        background-color: #333;   /* A dark background for dark mode */
+        color: #FFDAB9;  /* Adjusted color for better contrast in dark mode */
+        background-color: #444;  /* A darker background for the paragraph in dark mode */
     }
 }
